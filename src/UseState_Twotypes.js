@@ -14,7 +14,7 @@ function UseState_TwoTypes() {
   }, []);
 }
 
-function App() {
+function Hello() {
   const [showing, setShowing] = useState(false);
   const onClick = () => setShowing((prev) => !prev);
   return (
