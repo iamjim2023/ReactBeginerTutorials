@@ -20,8 +20,7 @@ function Todo_Function() {
           onChange={onChange}
           value={toDo}
           type="text"
-          placeholder="Write your t
-          o do..."
+          placeholder="Write your to do..."
         />
         <button>Add To Do</button>
       </form>
